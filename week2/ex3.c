@@ -10,13 +10,14 @@ int main(int argc, char **argv)
             for(int j=0; j<i; j++) printf(" ");
             for(int j=0; j<stars; j++) printf("*");
             printf("\n");
-            stars+=2;
+            stars += 2;
         }
+    	printf("\n");
     }
     else
     {
-        printf("An error occurred");
+        printf("Usage: %s [N]\n", argv[0]);
+        return 1;
     }
-    printf("\n");
 }
 
