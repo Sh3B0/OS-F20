@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #include <stdio.h>
-=======
-#include<stdio.h>
->>>>>>> 7467891529d739c278635708c7613e06cb113ae5
 
 int main() {
 
@@ -37,11 +33,7 @@ int main() {
         else if (a[cnt + 1] <= time) cnt++;
         else cnt = 0;
     }
-<<<<<<< HEAD
+
     printf("Average Waiting Time: %f\n", (double)(wt) / n);
     printf("Average Turnaround Time: %f\n", (double)(tat) / n);
-=======
-    printf("\nAverage Waiting Time= %f\n", (double)(wt) / n);
-    printf("Avg Turnaround Time = %f", (double)(tat) / n);
->>>>>>> 7467891529d739c278635708c7613e06cb113ae5
 }
