@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
 
@@ -33,6 +33,6 @@ int main() {
         else if (a[cnt + 1] <= time) cnt++;
         else cnt = 0;
     }
-    printf("\nAverage Waiting Time= %f\n", (double)(wt) / n);
-    printf("Avg Turnaround Time = %f", (double)(tat) / n);
+    printf("Average Waiting Time: %f\n", (double)(wt) / n);
+    printf("Average Turnaround Time: %f\n", (double)(tat) / n);
 }
